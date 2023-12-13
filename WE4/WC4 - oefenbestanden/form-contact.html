@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactformulier</title>
+
+</head>
+
+<body>
+
+  <H1>Contacteer ons Vul aub alle velden in.</H1>
+  <form action="school" method="post">
+  <div>
+  <label for="name" class="title">Je naam :</label>
+  <input type="text" id="name"  name="Je volledige naam" size="20" maxlength="50"/>
+  </div>
+  <div>
+  <label for="email" class="title"> email : </label>
+  <input type="text" id="mail" name="Een geldig emailadres" size="20" maxlength="60">
+  </div>
+  <div>
+  <label for="message" class="title">Boodschap :</label> 
+  <br />
+  <textarea name="boodschap" cols="20" rows="5">Je boodschap voor ons</textarea>
+</div>
+<div>
+  <h3>Onderwerp:</h3>
+  <select name="subjects">
+    <option value="Vacature aanvraag" selected>Vacature aanvraag</option>
+    <option value="Algemene vraag" selected>Algemene vraag</option>
+    <option value="Technische vraag" selected> Technische vraag</option>
+    <option value="Vacature aanvraag" selected>Vacature aanvraag</option>
+</div>
+<br />
+<div>
+    <h3>Hoe ben je op deze site terecht gekomen?</h3>
+    <input type="radio" name="questions" value="choice1" checked id="question1"> <label for="question1">Hoe bedoel je</label>
+    <input type="radio" name="questions" value="choice2" checked id="question2"> <label for="question3">geen idee</label>
+    <input type="radio" name="questions" value="choice3" checked id="question3"><label for="question3">welke site?</label>
+</div>
+<div>
+  <label for="rating">Welke score geef je uzelf op 10?</label>
+  <input type="range" id="rating" name="rating" min="0" max="10" step="1">
+</div>
+<div>
+  <input type="submit" value="verzenden" id="submit"/>
+</div>
+</form>
+</body>
+
+</html>

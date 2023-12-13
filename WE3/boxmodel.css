@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: white;
+}
+.boxes{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    background: url(bg.svg) no-repeat center center fixed; 
+    background-size: cover;
+    
+}
+blockquote{
+
+    background-color: #143843;
+    border-color: white;
+    width: 50%;
+    border: 5px solid white;
+    padding: 2rem;
+    margin: 3rem auto;
+}
+.two{
+    margin-right: 350px;
+}
+.three{
+    margin-left: auto;
+    margin-right: 0
+}
+div{
+    padding: 10px;
+}
+img{
+    background-size: cover;
+    display: none; 
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigatie</title>
+    <style type="text/css">
+        .flexbox{
+            background-color: black;
+            display: flex;
+            order: 5;
+            flex-direction: column-reverse;
+        }
+
+        .home:hover, .blog:hover, .learning:hover, .discuss:hover{
+            background-color: white;
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: black;
+        }
+        div ul {
+            justify-content: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="flexbox">
+        <ul>
+        <div class="home">
+            <a href="#">home</a> 
+        </div>
+        <div class="blog">
+            <a href="#">blog</a> 
+        </div>
+        <div class="learning">
+            <a href="#">learning</a> 
+        </div>
+        <div class="discuss">
+            <a href="#">discuss</a> 
+        <div>
+        </ul>
+    </div>
+</body>
+</html>
