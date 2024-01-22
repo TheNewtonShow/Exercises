@@ -2,3 +2,21 @@ h1{
     background-color: lightblue;
     color: darkred;
 }
+body{
+    color: black;
+    background-color: red;
+}
+.navigatie:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.current{
+    background-color: rgba(211, 211, 211, 0.562);
+    
+}
+
+.speciaal{
+    background-color: black;
+    color: yellow;
+}
